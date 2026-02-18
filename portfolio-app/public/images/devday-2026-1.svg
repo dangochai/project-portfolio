@@ -1,0 +1,17 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="purpleBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4c1d95;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e3a8a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#purpleBlue)" />
+  
+  <text x="400" y="150" font-family="sans-serif" font-weight="bold" font-size="64" fill="white" text-anchor="middle">DevDay 2026</text>
+  <text x="400" y="220" font-family="sans-serif" font-size="24" fill="#cbd5e1" text-anchor="middle">AI × Human: The Future of Co-Intelligence</text>
+
+  <text x="400" y="320" font-family="sans-serif" font-size="18" fill="white" text-anchor="middle">📍 Duy Tan University, Da Nang · 📅 April 18, 2026 · 👥 3000+ Attendees</text>
+
+  <rect x="150" y="380" width="500" height="50" rx="25" fill="#ffffff" fill-opacity="0.1" />
+  <text x="400" y="412" font-family="sans-serif" font-size="16" fill="white" text-anchor="middle">Co-organized by Axon Active &amp; Duy Tan University</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#0f0f2e" />
+  <text x="400" y="40" font-family="sans-serif" font-size="20" fill="white" text-anchor="middle">Multi-Agent Orchestration</text>
+  
+  <defs>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0080ff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <line x1="400" y1="250" x2="200" y2="150" stroke="white" stroke-width="2" stroke-dasharray="5,5" />
+  <line x1="400" y1="250" x2="600" y2="150" stroke="white" stroke-width="2" stroke-dasharray="5,5" />
+  <line x1="400" y1="250" x2="400" y2="400" stroke="white" stroke-width="2" stroke-dasharray="5,5" />
+
+  <circle cx="400" cy="250" r="60" fill="url(#cyanGrad)" />
+  <text x="400" y="257" font-family="sans-serif" font-size="18" fill="white" text-anchor="middle">Elsa</text>
+
+  <circle cx="200" cy="150" r="40" fill="#007bff" />
+  <text x="200" y="155" font-family="sans-serif" font-size="14" fill="white" text-anchor="middle">Jarvis</text>
+
+  <circle cx="600" cy="150" r="40" fill="#ff007f" />
+  <text x="600" y="155" font-family="sans-serif" font-size="14" fill="white" text-anchor="middle">Anna</text>
+
+  <circle cx="400" cy="400" r="40" fill="#28a745" />
+  <text x="400" y="405" font-family="sans-serif" font-size="14" fill="white" text-anchor="middle">Garmin</text>
+</svg>

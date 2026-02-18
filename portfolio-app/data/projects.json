@@ -25,9 +25,9 @@
     "liveDemo": "",
     "thumbnail": "/images/elsa-openclaw-thumb.svg",
     "screenshots": [
-      "/images/elsa-performance-1.svg",
-      "/images/elsa-performance-2.svg",
-      "/images/elsa-performance-3.svg"
+      "/images/elsa-openclaw-1.svg",
+      "/images/elsa-openclaw-2.svg",
+      "/images/elsa-openclaw-3.svg"
     ],
     "features": [
       "CAP/3.1 model-agnostic agent protocol with DISPATCH/REPORT envelopes",
@@ -62,8 +62,8 @@
     "liveDemo": "https://autonomous-agent.demo.com",
     "thumbnail": "/images/project-portfolio-thumb.svg",
     "screenshots": [
-      "/images/autonomous-agent-1.svg",
-      "/images/autonomous-agent-2.svg"
+      "/images/project-portfolio-1.svg",
+      "/images/project-portfolio-2.svg"
     ],
     "features": [
       "Full-stack autonomous synthesis from natural language blueprints",
