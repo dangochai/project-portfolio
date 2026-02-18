@@ -11,10 +11,7 @@ async function main() {
   // Import Projects
   const projectsData = JSON.parse(fs.readFileSync(path.join(dataDir, 'projects.json'), 'utf8'))
   for (const item of projectsData) {
-    await prisma.project.upsert({
-      where: { slug: item.slug },
-      update: {},
-      create: {
+    const projectData = {
         slug: item.slug,
         title: item.title,
         shortDescription: item.shortDescription,
@@ -29,7 +26,11 @@ async function main() {
         screenshots: JSON.stringify(item.screenshots),
         features: JSON.stringify(item.features),
         featured: item.featured,
-      },
+    }
+    await prisma.project.upsert({
+      where: { slug: item.slug },
+      update: projectData,
+      create: projectData,
     })
   }
   console.log('Imported projects')
