@@ -126,9 +126,10 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         <h2 id="about-heading" className="text-xl font-semibold text-slate-900 dark:text-slate-100 mb-4 pb-2 border-b border-slate-200 dark:border-slate-800">
           About
         </h2>
-        <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
-          {project.description}
-        </p>
+        <div 
+          className="text-slate-600 dark:text-slate-400 leading-relaxed"
+          dangerouslySetInnerHTML={{ __html: project.description }}
+        />
       </section>
 
       {/* ── Project Dashboard (autonomous-coding-agent only) ── */}
