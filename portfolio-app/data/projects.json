@@ -3,7 +3,7 @@
     "id": "1",
     "slug": "elsa-performance",
     "title": "Elsa OpenClaw",
-    "shortDescription": "The AI coordinator system powering the Super Agents team \u2014 built on OpenClaw.",
+    "shortDescription": "The AI coordinator system powering the Super Agents team — built on OpenClaw.",
     "description": "<p>Elsa is the mission-critical orchestration layer of the Super Agents ecosystem. Built on the <strong>OpenClaw</strong> framework, she serves as the central nervous system for an autonomous workforce, transforming a collection of AI models into a cohesive, high-performance team.</p><h3>1. Multi-Agent Architecture & Protocol</h3><p>At her core, Elsa manages a specialized team of ephemeral sub-agents. Communication is standardized via <strong>CAP/3.2</strong> (Canonical Agent Protocol), a model-agnostic standard designed by Elsa to handle complex task dispatching and error escalation.</p><ul><li><strong>Elsa (Coordinator):</strong> Powered by Claude 4.6/Sonnet 4.5, handles high-level decision-making and human interaction.</li><li><strong>Jarvis (Technical Specialist):</strong> Optimized on Gemini Flash for DevOps, coding, and system operations.</li><li><strong>Anna (Research & Content):</strong> Specialized in documentation, Notion management, and data analysis.</li></ul><h3>2. Automated Operations & Maintenance</h3><p>The system is built for 'zero-touch' reliability. Elsa manages her own health through a suite of automated maintenance scripts:</p><ul><li><strong>Health Monitoring:</strong> Real-time connectivity checks for Home Assistant, Notion, and Google Workspace.</li><li><strong>Daily Resilience:</strong> Automatic daily and weekly backups to a private GitHub repository (elsa-openclaw) and Google Drive.</li><li><strong>Cron Orchestration:</strong> 13+ active cron jobs managing everything from Garmin health briefings to security audits.</li></ul><h3>3. Workspace Isolation & Architecture</h3><p>To ensure maximum efficiency and security, the system implements <strong>Workspace Isolation</strong>. By moving project outputs out of the core OpenClaw workspace, the 'brain' remains lightweight and performant.</p><ul><li><strong>New Architecture Rule:</strong> workspace=brain, ~/Projects/=output.</li><li><strong>99.7% Size Reduction:</strong> Workspace footprint reduced from 775MB to 2.6MB by offloading static project data to ~/Projects/.</li><li><strong>Automated Lifecycle:</strong> Cleanup scripts (weekly cron) now cover both the core workspace and ~/Projects/ for end-to-end maintenance.</li></ul><h3>4. Security & The Execution Firewall</h3><p>Safety is non-negotiable. Elsa implements a <strong>3-tier Execution Firewall</strong> that governs how agents interact with the host system. This ensures that while agents have the power to write code and manage databases (via Prisma/SQLite), they are strictly prohibited from destructive or unauthorized external actions.</p><h3>5. Workspace Health System</h3><p>To ensure long-term stability, Elsa features a comprehensive workspace integrity verification system. This includes <strong>audit_system.sh</strong> for real-time health checks and <strong>WORKSPACE_HEALTH_RULES.md</strong> for prevention of structural regression. This system was instrumental in discovering and resolving a critical workspace nesting bug (workspace/workspace/) that had caused multi-session identity loss. Health reports are now generated in standardized JSON format for continuous monitoring.</p><h3>6. Self-Evolution (Blueprint v2)</h3><p>Using the <strong>Workspace Blueprint v2</strong>, Elsa maintains a self-documenting environment. She is capable of refactoring her own scripts, updating project schemas, and maintaining a clean, professional workspace. This self-improving loop ensures the system evolves alongside the user's needs.</p>",
     "techStack": [
       "OpenClaw",
@@ -87,9 +87,9 @@
   {
     "id": "3",
     "slug": "axon-ai",
-    "title": "Axon AI Model\u2122",
+    "title": "Axon AI Model™",
     "shortDescription": "A strategic AI transformation framework embedding autonomous agents into the Axon Active Agile development cycle.",
-    "description": "AxonAI redefines how offshore development teams operate by embedding AI tools\u2014GitHub Copilot, Cursor, and Claude Code\u2014directly into Axon Active's proprietary Scrum-based Axon Model\u2122. The project produced the Axon AI Model\u2122, a layered framework that reshapes developer roles into AI Pilots, Scrum Masters into AI-Enhanced Facilitators, and Product Owners into Value Engineers, with governance cycles spanning PO, EAT, and EMS levels. Research deliverables include a sales pitch for prospective clients, a 1000+ word strategic proposal for existing customers, and an internal staff guidebook featuring the 3-Prompt Rule and a Junior Gap apprenticeship solution. The enterprise governance layer addresses Private LLM policy, IP protection, and Copilot Enterprise rollout strategy across dedicated offshore teams.",
+    "description": "AxonAI redefines how offshore development teams operate by embedding AI tools—GitHub Copilot, Cursor, and Claude Code—directly into Axon Active's proprietary Scrum-based Axon Model™. The project produced the Axon AI Model™, a layered framework that reshapes developer roles into AI Pilots, Scrum Masters into AI-Enhanced Facilitators, and Product Owners into Value Engineers, with governance cycles spanning PO, EAT, and EMS levels. Research deliverables include a sales pitch for prospective clients, a 1000+ word strategic proposal for existing customers, and an internal staff guidebook featuring the 3-Prompt Rule and a Junior Gap apprenticeship solution. The enterprise governance layer addresses Private LLM policy, IP protection, and Copilot Enterprise rollout strategy across dedicated offshore teams.",
     "techStack": [
       "Python",
       "Claude API",
@@ -109,7 +109,7 @@
       "/images/axon-ai-2.svg"
     ],
     "features": [
-      "Axon AI Model\u2122 framework defining role shifts for all Scrum personas (Developer \u2192 AI Pilot, SM \u2192 AI-Enhanced Facilitator, PO \u2192 Value Engineer)",
+      "Axon AI Model™ framework defining role shifts for all Scrum personas (Developer → AI Pilot, SM → AI-Enhanced Facilitator, PO → Value Engineer)",
       "Agentic SDLC workflow mapping GitHub Copilot, Cursor, and Claude Code to each sprint phase",
       "Sales pitch and 1000+ word strategic proposal documents published and synchronized to Notion",
       "Internal staff guidebook: AI-First Onboarding, Pair Programming 2.0, and the 3-Prompt Rule",
@@ -122,8 +122,8 @@
     "id": "4",
     "slug": "devday-2026",
     "title": "DevDay 2026",
-    "shortDescription": "Event planning and content management system for Da Nang's largest annual tech conference, themed 'AI x Human: The Future of Co-Intelligence.'",
-    "description": "DevDay Da Nang 2026 is Vietnam's premier non-profit IT festival, gathering over 3,000 tech enthusiasts to explore the 'AI x Human' paradigm. Hosted at Duy Tan University, the event features 40+ global speakers across specialized tracks, showcasing the future of co-intelligence, automation workflows, and AI-driven innovation.",
+    "shortDescription": "Vietnam's premier non-profit IT festival — AI x Human: Redefining Collaboration. April 18, 2026 at Duy Tan University, Da Nang.",
+    "description": "<p><strong>DevDay Da Nang</strong> is Vietnam's premier non-profit information technology festival, organized annually by <strong>Axon Active</strong> and <strong>Duy Tan University</strong>. Founded in 2014, it has grown from a local developer meetup into one of Southeast Asia's most influential tech gatherings, attracting 3,000+ participants and 40+ international speakers each year.</p>\n\n<h3>DevDay 2026: AI x Human — Redefining Collaboration</h3>\n<p>Scheduled for <strong>April 18, 2026</strong> at Duy Tan University (03 Quang Trung, Da Nang), the 2026 edition centers on <em>\"AI x Human: Redefining Collaboration\"</em> — exploring how human creativity and machine intelligence work together rather than compete. DevDay positions AI as a collaborative partner that amplifies human potential, not a replacement.</p>\n\n<h3>Event Structure</h3>\n<p>The event runs 6 specialized concurrent tracks: <strong>AI &amp; Intelligent Systems</strong>, <strong>Web3 &amp; Blockchain</strong>, <strong>Software Engineering</strong>, <strong>Cybersecurity &amp; Data Protection</strong>, <strong>Enterprise Transformation</strong>, and <strong>Emerging Technologies</strong>. The program includes keynote sessions, hands-on workshops, startup pitch competitions, a career fair (50+ companies), and the legendary informal networking that defines the \"DevDay Spirit.\"</p>\n\n<h3>History &amp; Community Impact</h3>\n<p>DevDay celebrated its <strong>10-year anniversary in 2025</strong> with 3,000+ participants, 40 speakers, 38 session topics, 21 exhibitors, and 10 major sponsors. The event is backed by the Da Nang Department of Science &amp; Technology and has hosted delegations from the Swiss Confederation Embassy — evidence of its growing international reputation. Da Nang's position as Vietnam's rising technology hub outside Hanoi and HCMC is inseparable from DevDay's decade of community building.</p>\n\n<h3>AI Team Support</h3>\n<p>DevDay 2026 is supported by an AI planning team — <strong>Elsa</strong> (Strategic Orchestrator), <strong>Jarvis</strong> (Technical Specialist), and <strong>Anna</strong> (Content &amp; Research Coordinator) — working alongside Axon Active's human organizers to manage content curation, speaker research, and community documentation. This collaboration itself embodies the event's theme of human-AI co-intelligence in practice.</p>",
     "techStack": [
       "Notion API",
       "Google Calendar API",
@@ -142,11 +142,12 @@
       "/images/devday-2026-2.svg"
     ],
     "features": [
-      "Theme: AI x Human: Redefining collaboration in the age of intelligence.",
-      "Attendance: 3,000+ developers, entrepreneurs, and students.",
-      "Tracks: 6 specialized AI tracks including Autonomous Agents and AI Ethics.",
-      "Networking: Exclusive VIP lounge and industry-leading career fair.",
-      "Community: Largest non-profit tech gathering in Central Vietnam."
+      "Theme: \"AI x Human: Redefining Collaboration\" — April 18, 2026, Duy Tan University, Da Nang.",
+      "Scale: 3,000+ attendees, 40+ international speakers, 21 exhibitors, 10 major sponsors (2025 benchmark).",
+      "Program: 6 specialized tracks — AI/ML, Web3, Software Engineering, Cybersecurity, Enterprise Transformation, Emerging Tech.",
+      "History: Founded 2014 by Axon Active & Duy Tan University — 11+ years of non-profit, community-driven innovation.",
+      "Career Fair: 50+ companies recruiting AI-native developers, engineers, and product managers.",
+      "AI Team: Elsa, Jarvis & Anna orchestrate planning, research, and content — a live demonstration of the event theme."
     ],
     "featured": true
   }
