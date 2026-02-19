@@ -3,13 +3,13 @@
     "id": "1",
     "slug": "elsa-performance",
     "title": "Elsa OpenClaw",
-    "shortDescription": "The AI coordinator system powering the Super Agents team — built on OpenClaw.",
-    "description": "<p>Elsa is the mission-critical orchestration layer of the Super Agents ecosystem. Built on the <strong>OpenClaw</strong> framework, she serves as the central nervous system for an autonomous workforce, transforming a collection of AI models into a cohesive, high-performance team.</p><h3>1. Multi-Agent Architecture & Protocol</h3><p>At her core, Elsa manages a specialized team of ephemeral sub-agents. Communication is standardized via <strong>CAP/3.1</strong> (Canonical Agent Protocol), a model-agnostic standard designed by Elsa to handle complex task dispatching and error escalation.</p><ul><li><strong>Elsa (Coordinator):</strong> Powered by Claude 4.6/Sonnet 4.5, handles high-level decision-making and human interaction.</li><li><strong>Jarvis (Technical Specialist):</strong> Optimized on Gemini Flash for DevOps, coding, and system operations.</li><li><strong>Anna (Research & Content):</strong> Specialized in documentation, Notion management, and data analysis.</li></ul><h3>2. Automated Operations & Maintenance</h3><p>The system is built for 'zero-touch' reliability. Elsa manages her own health through a suite of automated maintenance scripts:</p><ul><li><strong>Health Monitoring:</strong> Real-time connectivity checks for Home Assistant, Notion, and Google Workspace.</li><li><strong>Daily Resilience:</strong> Automatic daily and weekly backups to a private GitHub repository (elsa-openclaw) and Google Drive.</li><li><strong>Cron Orchestration:</strong> 13+ active cron jobs managing everything from Garmin health briefings to security audits.</li></ul><h3>3. Workspace Isolation & Architecture</h3><p>To ensure maximum efficiency and security, the system implements <strong>Workspace Isolation</strong>. By moving project outputs out of the core OpenClaw workspace, the 'brain' remains lightweight and performant.</p><ul><li><strong>New Architecture Rule:</strong> workspace=brain, ~/Projects/=output.</li><li><strong>99.7% Size Reduction:</strong> Workspace footprint reduced from 775MB to 2.6MB by offloading static project data to ~/Projects/.</li><li><strong>Automated Lifecycle:</strong> Cleanup scripts (weekly cron) now cover both the core workspace and ~/Projects/ for end-to-end maintenance.</li></ul><h3>4. Security & The Execution Firewall</h3><p>Safety is non-negotiable. Elsa implements a <strong>3-tier Execution Firewall</strong> that governs how agents interact with the host system. This ensures that while agents have the power to write code and manage databases (via Prisma/SQLite), they are strictly prohibited from destructive or unauthorized external actions.</p><h3>5. Self-Evolution (Blueprint v2)</h3><p>Using the <strong>Workspace Blueprint v2</strong>, Elsa maintains a self-documenting environment. She is capable of refactoring her own scripts, updating project schemas, and maintaining a clean, professional workspace. This self-improving loop ensures the system evolves alongside the user's needs.</p>",
+    "shortDescription": "The AI coordinator system powering the Super Agents team \u2014 built on OpenClaw.",
+    "description": "<p>Elsa is the mission-critical orchestration layer of the Super Agents ecosystem. Built on the <strong>OpenClaw</strong> framework, she serves as the central nervous system for an autonomous workforce, transforming a collection of AI models into a cohesive, high-performance team.</p><h3>1. Multi-Agent Architecture & Protocol</h3><p>At her core, Elsa manages a specialized team of ephemeral sub-agents. Communication is standardized via <strong>CAP/3.2</strong> (Canonical Agent Protocol), a model-agnostic standard designed by Elsa to handle complex task dispatching and error escalation.</p><ul><li><strong>Elsa (Coordinator):</strong> Powered by Claude 4.6/Sonnet 4.5, handles high-level decision-making and human interaction.</li><li><strong>Jarvis (Technical Specialist):</strong> Optimized on Gemini Flash for DevOps, coding, and system operations.</li><li><strong>Anna (Research & Content):</strong> Specialized in documentation, Notion management, and data analysis.</li></ul><h3>2. Automated Operations & Maintenance</h3><p>The system is built for 'zero-touch' reliability. Elsa manages her own health through a suite of automated maintenance scripts:</p><ul><li><strong>Health Monitoring:</strong> Real-time connectivity checks for Home Assistant, Notion, and Google Workspace.</li><li><strong>Daily Resilience:</strong> Automatic daily and weekly backups to a private GitHub repository (elsa-openclaw) and Google Drive.</li><li><strong>Cron Orchestration:</strong> 13+ active cron jobs managing everything from Garmin health briefings to security audits.</li></ul><h3>3. Workspace Isolation & Architecture</h3><p>To ensure maximum efficiency and security, the system implements <strong>Workspace Isolation</strong>. By moving project outputs out of the core OpenClaw workspace, the 'brain' remains lightweight and performant.</p><ul><li><strong>New Architecture Rule:</strong> workspace=brain, ~/Projects/=output.</li><li><strong>99.7% Size Reduction:</strong> Workspace footprint reduced from 775MB to 2.6MB by offloading static project data to ~/Projects/.</li><li><strong>Automated Lifecycle:</strong> Cleanup scripts (weekly cron) now cover both the core workspace and ~/Projects/ for end-to-end maintenance.</li></ul><h3>4. Security & The Execution Firewall</h3><p>Safety is non-negotiable. Elsa implements a <strong>3-tier Execution Firewall</strong> that governs how agents interact with the host system. This ensures that while agents have the power to write code and manage databases (via Prisma/SQLite), they are strictly prohibited from destructive or unauthorized external actions.</p><h3>5. Workspace Health System</h3><p>To ensure long-term stability, Elsa features a comprehensive workspace integrity verification system. This includes <strong>audit_system.sh</strong> for real-time health checks and <strong>WORKSPACE_HEALTH_RULES.md</strong> for prevention of structural regression. This system was instrumental in discovering and resolving a critical workspace nesting bug (workspace/workspace/) that had caused multi-session identity loss. Health reports are now generated in standardized JSON format for continuous monitoring.</p><h3>6. Self-Evolution (Blueprint v2)</h3><p>Using the <strong>Workspace Blueprint v2</strong>, Elsa maintains a self-documenting environment. She is capable of refactoring her own scripts, updating project schemas, and maintaining a clean, professional workspace. This self-improving loop ensures the system evolves alongside the user's needs.</p>",
     "techStack": [
       "OpenClaw",
       "Claude Sonnet 4.6",
       "Gemini Flash",
-      "CAP/3.1",
+      "CAP/3.2",
       "Prisma",
       "SQLite",
       "Shell Script",
@@ -20,7 +20,7 @@
     ],
     "status": "Active",
     "category": "AI",
-    "date": "2026-02-18",
+    "date": "2026-02-19",
     "githubUrl": "",
     "liveDemo": "",
     "thumbnail": "/images/elsa-openclaw-thumb.svg",
@@ -30,7 +30,7 @@
       "/images/elsa-openclaw-3.svg"
     ],
     "features": [
-      "CAP/3.1 model-agnostic agent protocol with DISPATCH/REPORT envelopes",
+      "CAP/3.2 model-agnostic agent protocol with DISPATCH/REPORT envelopes",
       "Multi-agent coordination: Elsa (Coordinator), Jarvis (Tech), Anna (Content)",
       "Workspace isolation: projects moved to ~/Projects/, reducing workspace from 775MB to 2.6MB (99.7%)",
       "Automated cleanup script covers both workspace + ~/Projects/ (weekly cron)",
@@ -40,7 +40,10 @@
       "Workspace Blueprint v2: Organized system scripts and memory architecture",
       "Real-world integrations: Garmin health briefings and Home Assistant control",
       "Self-documenting and self-evolving system via iterative PR workflows",
-      "SQLite + Prisma 6.4.0 backend for persistent agent memory and state"
+      "SQLite + Prisma 6.4.0 backend for persistent agent memory and state",
+      "Workspace Health System: audit_system.sh detects workspace integrity issues, connectivity checks, and cron status",
+      "CAP/3.2 GitHub Identity Rules: each agent commits with their dedicated GitHub identity (Elsa/Jarvis/Anna)",
+      "Critical workspace nesting fix (2026-02-19): resolved multi-session identity loss caused by workspace/workspace/ structure"
     ],
     "featured": true
   },
@@ -84,9 +87,9 @@
   {
     "id": "3",
     "slug": "axon-ai",
-    "title": "Axon AI Model™",
+    "title": "Axon AI Model\u2122",
     "shortDescription": "A strategic AI transformation framework embedding autonomous agents into the Axon Active Agile development cycle.",
-    "description": "AxonAI redefines how offshore development teams operate by embedding AI tools—GitHub Copilot, Cursor, and Claude Code—directly into Axon Active's proprietary Scrum-based Axon Model™. The project produced the Axon AI Model™, a layered framework that reshapes developer roles into AI Pilots, Scrum Masters into AI-Enhanced Facilitators, and Product Owners into Value Engineers, with governance cycles spanning PO, EAT, and EMS levels. Research deliverables include a sales pitch for prospective clients, a 1000+ word strategic proposal for existing customers, and an internal staff guidebook featuring the 3-Prompt Rule and a Junior Gap apprenticeship solution. The enterprise governance layer addresses Private LLM policy, IP protection, and Copilot Enterprise rollout strategy across dedicated offshore teams.",
+    "description": "AxonAI redefines how offshore development teams operate by embedding AI tools\u2014GitHub Copilot, Cursor, and Claude Code\u2014directly into Axon Active's proprietary Scrum-based Axon Model\u2122. The project produced the Axon AI Model\u2122, a layered framework that reshapes developer roles into AI Pilots, Scrum Masters into AI-Enhanced Facilitators, and Product Owners into Value Engineers, with governance cycles spanning PO, EAT, and EMS levels. Research deliverables include a sales pitch for prospective clients, a 1000+ word strategic proposal for existing customers, and an internal staff guidebook featuring the 3-Prompt Rule and a Junior Gap apprenticeship solution. The enterprise governance layer addresses Private LLM policy, IP protection, and Copilot Enterprise rollout strategy across dedicated offshore teams.",
     "techStack": [
       "Python",
       "Claude API",
@@ -106,7 +109,7 @@
       "/images/axon-ai-2.svg"
     ],
     "features": [
-      "Axon AI Model™ framework defining role shifts for all Scrum personas (Developer → AI Pilot, SM → AI-Enhanced Facilitator, PO → Value Engineer)",
+      "Axon AI Model\u2122 framework defining role shifts for all Scrum personas (Developer \u2192 AI Pilot, SM \u2192 AI-Enhanced Facilitator, PO \u2192 Value Engineer)",
       "Agentic SDLC workflow mapping GitHub Copilot, Cursor, and Claude Code to each sprint phase",
       "Sales pitch and 1000+ word strategic proposal documents published and synchronized to Notion",
       "Internal staff guidebook: AI-First Onboarding, Pair Programming 2.0, and the 3-Prompt Rule",
