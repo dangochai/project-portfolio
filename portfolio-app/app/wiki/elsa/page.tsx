@@ -1,12 +1,12 @@
-"use client";
-
 import { ArrowLeft, Users, Zap, Code2, Shield, Brain, BookOpen, Calendar } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Elsa OpenClaw | Wiki",
   description: "Meet Elsa, the AI Coordinator leading the Super Agents team. Learn about her architecture, capabilities, and role in autonomous software development.",
+  keywords: ["Elsa", "AI Coordinator", "autonomous agents", "CAP protocol"],
 };
 
 export default function ElsaWikiPage() {
@@ -25,9 +25,11 @@ export default function ElsaWikiPage() {
         {/* Hero Section */}
         <div className="mb-12">
           <div className="mb-6">
-            <img
+            <Image
               src="/images/elsa-avatar.svg"
               alt="Elsa Avatar"
+              width={96}
+              height={96}
               className="h-24 w-24 rounded-full border-4 border-indigo-200 dark:border-indigo-800"
             />
           </div>
@@ -55,13 +57,13 @@ export default function ElsaWikiPage() {
             <div>
               <h3 className="font-semibold text-slate-900 dark:text-slate-50 mb-2">Operating Environment</h3>
               <p className="text-slate-700 dark:text-slate-300">
-                <strong>OpenClaw Framework</strong> — A personal AI assistant protocol built on Anthropic's Claude AI models. Runs in the main coordinator session (agent:main:main).
+                <strong>OpenClaw Framework</strong> — A personal AI assistant protocol built on Anthropic&apos;s Claude AI models. Runs in the main coordinator session (agent:main:main).
               </p>
             </div>
             <div>
               <h3 className="font-semibold text-slate-900 dark:text-slate-50 mb-2">Primary Language</h3>
               <p className="text-slate-700 dark:text-slate-300">
-                <strong>Vietnamese</strong> (with anh Hải). All documentation and system logs are in English for consistency.
+                <strong>Vietnamese</strong> (with anh H&apos;i). All documentation and system logs are in English for consistency.
               </p>
             </div>
             <div>
@@ -168,7 +170,7 @@ export default function ElsaWikiPage() {
             <div>
               <h3 className="font-semibold text-slate-900 dark:text-slate-50 mb-3">Workflow Lifecycle</h3>
               <div className="bg-slate-50 dark:bg-slate-900 rounded p-4 space-y-2 text-sm text-slate-700 dark:text-slate-300">
-                <p><strong>1. Pre-flight & Planning:</strong> Diagnose state or spawn "Diagnose-only" task.</p>
+                <p><strong>1. Pre-flight &amp; Planning:</strong> Diagnose state or spawn &quot;Diagnose-only&quot; task.</p>
                 <p><strong>2. Execution:</strong> Worker runs T1 → T2 iterations with environment verification.</p>
                 <p><strong>3. Verification:</strong> Dual-Set (F2P/P2P) checks. Artifacts saved: diagnose_evidence.json, verify.json.</p>
                 <p><strong>4. Merge Gate:</strong> Elsa reviews F2P + P2P evidence + code diff before final merge.</p>
